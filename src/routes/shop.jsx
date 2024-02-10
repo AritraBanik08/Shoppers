@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <div class="site-wrap">
+      {/* <div class="site-wrap"> */}
         <header class="site-navbar" role="banner">
           <div class="site-navbar-top">
             <div class="container">
@@ -758,7 +758,7 @@ export default function Home() {
             </div>
           </div>
         </footer>
-      </div>
+      {/* </div> */}
 
       <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/jquery-ui.js"></script>

@@ -3,7 +3,7 @@ import Counter from "~/components/Counter";
 export default function Home() {
   return (
     <main>
-      {/* <div class="site-wrap">
+      {/* <div class="site-wrap"> */}
         <header class="site-navbar" role="banner">
           <div class="site-navbar-top">
             <div class="container">
@@ -120,7 +120,7 @@ export default function Home() {
               </ul>
             </div>
           </nav>
-        </header> */}
+        </header>
 
         <div
           class="site-blocks-cover"
