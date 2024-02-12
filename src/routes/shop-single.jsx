@@ -18,7 +18,7 @@ export default function Home() {
 
               <div class="col-12 mb-md-0 col-md-4 order-md-2 order-1 mb-3 text-center">
                 <div class="site-logo">
-                  <a href="index.html" class="js-logo-clone">
+                  <a href="/" class="js-logo-clone">
                     Shoppers
                   </a>
                 </div>
@@ -38,7 +38,7 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="cart.html" class="site-cart">
+                      <a href="/cart" class="site-cart">
                         <span class="icon icon-shopping_cart"></span>
                         <span class="count">2</span>
                       </a>
@@ -61,7 +61,7 @@ export default function Home() {
           <div class="container">
             <ul class="site-menu js-clone-nav d-none d-md-block">
               <li class="has-children">
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
                 <ul class="dropdown">
                   <li>
                     <a href="#">Menu One</a>
@@ -89,7 +89,7 @@ export default function Home() {
                 </ul>
               </li>
               <li class="has-children">
-                <a href="about.html">About</a>
+                <a href="/about">About</a>
                 <ul class="dropdown">
                   <li>
                     <a href="#">Menu One</a>
@@ -103,7 +103,7 @@ export default function Home() {
                 </ul>
               </li>
               <li class="active">
-                <a href="shop.html">Shop</a>
+                <a href="/shop">Shop</a>
               </li>
               <li>
                 <a href="#">Catalogue</a>
@@ -112,7 +112,7 @@ export default function Home() {
                 <a href="#">New Arrivals</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -123,7 +123,7 @@ export default function Home() {
         <div class="container">
           <div class="row">
             <div class="col-md-12 mb-0">
-              <a href="index.html">Home</a> <span class="mx-2 mb-0">/</span>{" "}
+              <a href="/">Home</a> <span class="mx-2 mb-0">/</span>{" "}
               <strong class="text-black">Tank Top T-Shirt</strong>
             </div>
           </div>
@@ -221,7 +221,7 @@ export default function Home() {
                 </div>
               </div>
               <p>
-                <a href="cart.html" class="buy-now btn btn-sm btn-primary">
+                <a href="/cart" class="buy-now btn btn-sm btn-primary">
                   Add To Cart
                 </a>
               </p>
